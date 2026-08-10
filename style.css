@@ -59,12 +59,12 @@ section{
 }
 
 .hero h1{
-    font-size:48px;
+    font-size:64px;
     font-weight:bold;
 }
 
 .hero h2{
-    font-size:28px;
+    font-size:32px;
 }
 
 .hero p{
@@ -115,4 +115,24 @@ footer{
     padding:30px;
     margin-top:50px;
     border-top:1px solid rgba(255,255,255,0.1);
+}
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.65),
+    rgba(0,0,0,0.65)),
+    url('hero.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    padding:20px;
 }
