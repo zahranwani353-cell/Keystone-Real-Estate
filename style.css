@@ -170,3 +170,30 @@ footer{
     text-align:center;
     padding:20px;
 }
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 25px;
+
+    background:rgba(0,0,0,0.7);
+    backdrop-filter:blur(10px);
+
+    z-index:1000;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+}
+
+.navbar a:hover{
+    color:#fbbf24;
+}
