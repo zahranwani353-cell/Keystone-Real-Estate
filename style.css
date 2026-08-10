@@ -1,7 +1,7 @@
 body{
     margin:0;
     font-family:'Poppins',sans-serif;
-    background:#0b0b0b;
+    background:#000000;
     color:white;
 }
 
@@ -32,7 +32,7 @@ section{
 }
 
 .card{
-    background:#151515;
+    background:#0a0a0a;
     max-width:500px;
     margin:20px auto;
     padding:20px;
