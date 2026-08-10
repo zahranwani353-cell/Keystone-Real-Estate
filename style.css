@@ -38,6 +38,7 @@ section{
     padding:20px;
     border-radius:15px;
     border:1px solid rgba(251,191,36,0.25);
+    transition:0.3s;
 }
 
 .card h3{
@@ -71,10 +72,18 @@ section{
     font-size:18px;
 }
 
+.hero h1,
+.hero h2{
+    text-shadow:0 0 20px rgba(0,0,0,0.8);
+}
 
+.hero p{
+    text-shadow:0 0 15px rgba(0,0,0,0.8);
+}
 
 .card:hover{
-    transform:translateY(-8px);
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(251,191,36,0.25);
 }
 
 h2{
@@ -115,6 +124,12 @@ footer{
     padding:30px;
     margin-top:50px;
     border-top:1px solid rgba(255,255,255,0.1);
+}
+
+.btn:hover{
+    background:white;
+    transform:translateY(-3px);
+    transition:0.3s;
 }
 .hero{
     background:
