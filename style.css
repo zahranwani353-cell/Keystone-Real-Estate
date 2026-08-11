@@ -173,23 +173,6 @@ footer{
     padding:20px;
     padding-top:80px;
 }
-.navbar{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-    padding:15px 25px;
-
-    background:rgba(0,0,0,0.7);
-    backdrop-filter:blur(10px);
-
-    z-index:1000;
-}
 
 .navbar a{
     color:white;
@@ -209,23 +192,23 @@ footer{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px 30px;
+    padding:12px 15px;
     box-sizing:border-box;
-    background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.7;
     backdrop-filter:blur(10px);
     z-index:1000;
 }
 
 .logo{
     color:white;
-    font-size:22px;
+    font-size:18px;
     font-weight:700;
-    letter-spacing:2px;
+    letter-spacing:1px;
 }
 
 .nav-links{
     display:flex;
-    gap:15px;
+    gap:10px;
     list-style:none;
     margin:0;
     padding:0;
@@ -234,7 +217,7 @@ footer{
 .nav-links a{
     color:white;
     text-decoration:none;
-    font-size:14px;
+    font-size:13px;
 }
 
 .nav-links a:hover{
