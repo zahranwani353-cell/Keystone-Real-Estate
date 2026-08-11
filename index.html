@@ -207,6 +207,22 @@
 </section>
  <footer>
     <p>© 2026 Keystone Real Estate. All Rights Reserved.</p>
-</footer>   
+</footer>
+ <script>
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+    });
+}, {
+    threshold: 0.15
+});
+
+document.querySelectorAll('.card, section h2, .gallery-grid img').forEach(element => {
+    element.classList.add('reveal');
+    observer.observe(element);
+});
+</script>
 </body>
 </html>
