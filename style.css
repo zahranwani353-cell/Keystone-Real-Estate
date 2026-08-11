@@ -100,9 +100,11 @@ section{
 }
 
 .card:hover{
-    transform:translateY(-10px);
-    border:1px solid rgba(251,191,36,0.5);
-    box-shadow:0 0 30px rgba(251,191,36,0.15);
+    transform:translateY(-10px) scale(1.02);
+    transition:0.4s ease;
+    transition:0.4s ease;
+    overflow:hidden;
+    box-shadow:0 20px 50px rgba(251,191,36,0.15);
 }
 
 h2{
@@ -260,4 +262,22 @@ html{
     .nav-links a{
         font-size:13px;
     }
+}
+.hero h1{
+    font-size:64px;
+    font-weight:800;
+    line-height:1.1;
+    text-transform:uppercase;
+}
+
+.hero h2{
+    color:#fbbf24;
+    font-size:22px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+.hero p{
+    max-width:700px;
+    font-size:20px;
 }
